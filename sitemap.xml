@@ -1,30 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.gac.com.bd/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/" />
+  </url>
+  <url>
+    <loc>https://www.gac.com.bd/bn</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/" />
   </url>
   <url>
     <loc>https://www.gac.com.bd/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/about-us" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/about-us" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/about-us" />
+  </url>
+  <url>
+    <loc>https://www.gac.com.bd/bn/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/about-us" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/about-us" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/about-us" />
   </url>
   <url>
     <loc>https://www.gac.com.bd/contact-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/contact-us" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/contact-us" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/contact-us" />
+  </url>
+  <url>
+    <loc>https://www.gac.com.bd/bn/contact-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/contact-us" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/contact-us" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/contact-us" />
   </url>
   <url>
     <loc>https://www.gac.com.bd/book-a-test-drive</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/book-a-test-drive" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/book-a-test-drive" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/book-a-test-drive" />
+  </url>
+  <url>
+    <loc>https://www.gac.com.bd/bn/book-a-test-drive</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/book-a-test-drive" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/book-a-test-drive" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/book-a-test-drive" />
   </url>
   <url>
     <loc>https://www.gac.com.bd/aion-v</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/aion-v" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/aion-v" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/aion-v" />
+  </url>
+  <url>
+    <loc>https://www.gac.com.bd/bn/aion-v</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/aion-v" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/aion-v" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/aion-v" />
   </url>
   <url>
     <loc>https://www.gac.com.bd/aion-y</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/aion-y" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/aion-y" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/aion-y" />
+  </url>
+  <url>
+    <loc>https://www.gac.com.bd/bn/aion-y</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/aion-y" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/aion-y" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/aion-y" />
   </url>
   <url>
     <loc>https://www.gac.com.bd/e9</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/e9" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/e9" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/e9" />
+  </url>
+  <url>
+    <loc>https://www.gac.com.bd/bn/e9</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/e9" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/e9" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/e9" />
   </url>
   <url>
     <loc>https://www.gac.com.bd/emkoo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/emkoo" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/emkoo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/emkoo" />
+  </url>
+  <url>
+    <loc>https://www.gac.com.bd/bn/emkoo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/emkoo" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/emkoo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/emkoo" />
   </url>
   <url>
     <loc>https://www.gac.com.bd/emzoom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/emzoom" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/emzoom" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/emzoom" />
+  </url>
+  <url>
+    <loc>https://www.gac.com.bd/bn/emzoom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gac.com.bd/emzoom" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/emzoom" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/emzoom" />
   </url>
 </urlset>

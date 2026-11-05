@@ -1,0 +1,219 @@
+{
+  "_readme": "Source-of-truth bilingual copy for www.gac.com.bd. English (en) is the authoritative original — never edit it here without also updating the live /*.html files. Bangla (bn) is what's hand-placed into the matching bn/*.html twin. Keys are organized by shared chrome (nav/footer) and per-page content so future edits/additions happen in one place.",
+  "common": {
+    "nav": {
+      "aboutUs": { "en": "About Us", "bn": "আমাদের সম্পর্কে" },
+      "models": { "en": "Models", "bn": "মডেল" },
+      "contactUs": { "en": "Contact Us", "bn": "যোগাযোগ করুন" },
+      "bookTestDrive": { "en": "Book A Test Drive", "bn": "টেস্ট ড্রাইভ বুক করুন" }
+    },
+    "footer": {
+      "quickLinks": { "en": "Quick Links", "bn": "কুইক লিঙ্ক" },
+      "followUs": { "en": "Follow Us", "bn": "আমাদের ফলো করুন" },
+      "description": {
+        "en": "The Guangzhou Automobile Group Co., Ltd. (GAC) was founded in June 1997 and is currently a Fortune Global 500 company. DHS Motors Limited is the authorized importer and distributor of GAC Motor vehicles in Bangladesh, backed by 15+ years of comprehensive after-sales service experience and genuine parts support for customers across the country.",
+        "bn": "Guangzhou Automobile Group Co., Ltd. (GAC) ১৯৯৭ সালের জুনে প্রতিষ্ঠিত হয় এবং বর্তমানে এটি একটি ফরচুন গ্লোবাল ৫০০ কোম্পানি। DHS Motors Limited বাংলাদেশে GAC Motor গাড়ির অনুমোদিত আমদানিকারক ও পরিবেশক, যার রয়েছে ১৫+ বছরের পরিপূর্ণ আফটার-সেলস সার্ভিস অভিজ্ঞতা এবং দেশব্যাপী গ্রাহকদের জন্য জেনুইন পার্টস সাপোর্ট।"
+      },
+      "copyright": {
+        "en": "© 2026 GAC Motor Bangladesh. All rights reserved.",
+        "bn": "© ২০২৬ GAC Motor বাংলাদেশ। সর্বস্বত্ব সংরক্ষিত।"
+      }
+    },
+    "langSwitch": { "en": "EN", "bn": "বাংলা" },
+    "brandNamesDoNotTranslate": ["GAC", "GAC MOTOR", "AION", "HYPTEC", "EMZOOM", "EMKOO", "AION V", "AION Y", "E9", "DHS Motors Limited"]
+  },
+  "pages": {
+    "about": {
+      "route": { "en": "/about-us", "bn": "/bn/about-us" },
+      "note": "Full section-by-section EN/BN copy lives in about.html and bn/about.html (source of truth) — both files are structurally identical aside from language. Key terms below for quick reference.",
+      "meta": {
+        "title": { "en": "About Us — GAC Motor Bangladesh | Our Story & Vision", "bn": "আমাদের সম্পর্কে — GAC Motor বাংলাদেশ | আমাদের গল্প ও ভবিষ্যৎ দৃষ্টিভঙ্গি" },
+        "description": { "en": "Learn about GAC Motor's presence in Bangladesh, our brand vision, investment structure, and commitment to clean, sustainable mobility.", "bn": "বাংলাদেশে GAC Motor-এর উপস্থিতি, আমাদের ব্র্যান্ড ভিশন, বিনিয়োগ কাঠামো এবং পরিষ্কার, টিকসই মোবিলিটির প্রতি আমাদের অঙ্গীকার সম্পর্কে জানুন।" }
+      },
+      "sectionHeadings": {
+        "intro": { "en": "Introduction about GAC", "bn": "GAC সম্পর্কে পরিচিতি" },
+        "aboutLocal": { "en": "About GAC in Bangladesh", "bn": "বাংলাদেশে GAC" },
+        "groupBrand": { "en": "Group Brand", "bn": "গ্রুপ ব্র্যান্ড" },
+        "investmentStructure": { "en": "Investment Structure", "bn": "বিনিয়োগ কাঠামো" },
+        "ourVision": { "en": "Our Vision", "bn": "আমাদের ভিশন" },
+        "producingPhilosophy": { "en": "Producing Philosophy", "bn": "উৎপাদন দর্শন" },
+        "developmentPlan": { "en": "Development Plan", "bn": "উন্নয়ন পরিকল্পনা" },
+        "vision2035": { "en": "Vision of 2035", "bn": "ভিশন ২০৩৫" }
+      },
+      "acrosticLabelsKeptInEnglish": {
+        "note": "e-TIME and GLASS section labels are intentionally left untranslated — each big letter visually matches the first letter of its English word; translating would break that design.",
+        "eTIME": ["Experience", "Technology", "Intelligent", "Manufacture", "Electrification"],
+        "GLASS": ["Green", "Low-Carbon", "Achieving", "Sustainable", "Success"]
+      },
+      "knownIssue": "Pre-existing bug carried over unchanged from the English page: .dev-globe references 'About us/global-map (1).svg' but the actual file is 'About us/global-map.svg' (no suffix) — the globe watermark silently fails to load on both languages. Not fixed per scope (localization only); flag to the site owner separately."
+    },
+    "contact": {
+      "route": { "en": "/contact-us", "bn": "/bn/contact-us" },
+      "note": "Full copy lives in contact.html and bn/contact.html (source of truth). Form field names (Name, Phone, Email, Message) are unchanged across languages — same Formspree endpoint/payload.",
+      "meta": {
+        "title": { "en": "Contact Us — GAC Motor Bangladesh | Showrooms & Support", "bn": "যোগাযোগ করুন — GAC Motor বাংলাদেশ | শোরুম ও সাপোর্ট" },
+        "description": { "en": "Get in touch with GAC Motor Bangladesh. Find our Dhaka and Chattogram showroom locations, contact details, and send us an enquiry.", "bn": "GAC Motor বাংলাদেশের সাথে যোগাযোগ করুন। আমাদের ঢাকা ও চট্টগ্রাম শোরুমের ঠিকানা, যোগাযোগের তথ্য দেখুন এবং আমাদের একটি জিজ্ঞাসা পাঠান।" }
+      },
+      "form": {
+        "name": { "en": "Name", "bn": "নাম" },
+        "phone": { "en": "Phone Number", "bn": "ফোন নম্বর" },
+        "email": { "en": "Email Address", "bn": "ইমেইল ঠিকানা" },
+        "message": { "en": "Message", "bn": "বার্তা" },
+        "submit": { "en": "Submit Enquiry", "bn": "জিজ্ঞাসা পাঠান" },
+        "sending": { "en": "Sending...", "bn": "পাঠানো হচ্ছে..." },
+        "successTitle": { "en": "Thank You!", "bn": "ধন্যবাদ!" },
+        "successBody": { "en": "Your enquiry has been submitted successfully. Our team will get back to you shortly.", "bn": "আপনার জিজ্ঞাসা সফলভাবে জমা হয়েছে। আমাদের টিম শীঘ্রই আপনার সাথে যোগাযোগ করবে।" },
+        "errorBody": { "en": "Something went wrong. Please try again.", "bn": "কিছু সমস্যা হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।" }
+      },
+      "addressesKeptInEnglish": "Dhaka/Chattogram showroom street addresses are kept in English/Romanized script on the Bangla page too — standard practice in Bangladesh so Maps/couriers resolve them correctly."
+    },
+    "bookTestDrive": {
+      "route": { "en": "/book-a-test-drive", "bn": "/bn/book-a-test-drive" },
+      "note": "Full copy lives in book-a-test-drive.html and bn/book-a-test-drive.html (source of truth). The model radio values (Aion V, Aion Y, E9, Emkoo, Emzoom) and the hidden 'Model' field are unchanged across languages — same Formspree endpoint/payload.",
+      "meta": {
+        "title": { "en": "Book A Test Drive — GAC Motor Bangladesh | Schedule Now", "bn": "টেস্ট ড্রাইভ বুক করুন — GAC Motor বাংলাদেশ | এখনই সময়সূচী করুন" },
+        "description": { "en": "Book a test drive for any GAC Motor vehicle in Bangladesh — AION V, AION Y, E9 PHEV, EMKOO, or EMZOOM. Quick and easy online booking.", "bn": "বাংলাদেশে যেকোনো GAC Motor গাড়ির জন্য টেস্ট ড্রাইভ বুক করুন — AION V, AION Y, E9 PHEV, EMKOO অথবা EMZOOM। দ্রুত ও সহজ অনলাইন বুকিং।" }
+      },
+      "form": {
+        "fullName": { "en": "Full Name", "bn": "সম্পূর্ণ নাম" },
+        "emailAddress": { "en": "Email Address", "bn": "ইমেইল ঠিকানা" },
+        "phoneNumber": { "en": "Phone Number", "bn": "ফোন নম্বর" },
+        "submit": { "en": "Schedule Test Drive", "bn": "টেস্ট ড্রাইভ নির্ধারণ করুন" },
+        "sending": { "en": "Sending...", "bn": "পাঠানো হচ্ছে..." },
+        "modalTitle": { "en": "Request Submitted!", "bn": "আবেদন জমা হয়েছে!" },
+        "modalBody": { "en": "Thank you for your interest. We'll contact you soon.", "bn": "আপনার আগ্রহের জন্য ধন্যবাদ। আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।" },
+        "modalOk": { "en": "OK", "bn": "ঠিক আছে" }
+      }
+    },
+    "aionV": {
+      "route": { "en": "/aion-v", "bn": "/bn/aion-v" },
+      "note": "Full copy lives in aion-v.html and bn/aion-v.html (source of truth). Colour names (Night Shadow Black, Arctic White, Holographic Silver, Moonlight Beige, Sea Fluorescent Gray, Galaxy Blue, Galaxy Blue White Roof) and tech names (Magazine Battery 2.0) are official spec terms kept in English in both languages."
+    },
+    "aionY": {
+      "route": { "en": "/aion-y", "bn": "/bn/aion-y" },
+      "note": "Full copy lives in aion-y.html and bn/aion-y.html (source of truth). Colour names and 'Magazine Battery' are official spec terms kept in English in both languages. The 'Quick Sliver.png' filename is a pre-existing typo in the actual asset file (not 'Silver') — replicated as-is so the image keeps resolving; displayed text correctly says 'Quick Silver'."
+    },
+    "e9": {
+      "route": { "en": "/e9", "bn": "/bn/e9" },
+      "note": "Full copy lives in e9.html and bn/e9.html (source of truth). Colour names (Classic Black, Blade White) and 'Fusion Automatic Parking Assist (FAPA)' are official spec/feature names kept in English in both languages."
+    },
+    "emkoo": {
+      "route": { "en": "/emkoo", "bn": "/bn/emkoo" },
+      "note": "Full copy lives in emkoo.html and bn/emkoo.html (source of truth). Colour names and 'DTS' are official spec/brand terms kept in English in both languages."
+    },
+    "emzoom": {
+      "route": { "en": "/emzoom", "bn": "/bn/emzoom" },
+      "note": "Full copy lives in emzoom.html and bn/emzoom.html (source of truth). Colour names and 'DTS' are official spec/brand terms kept in English in both languages."
+    },
+    "home": {
+      "route": { "en": "/", "bn": "/bn" },
+      "meta": {
+        "title": {
+          "en": "GAC Motor Bangladesh | AION V, AION Y, E9, EMKOO & EMZOOM",
+          "bn": "GAC Motor বাংলাদেশ | AION V, AION Y, E9, EMKOO ও EMZOOM"
+        },
+        "description": {
+          "en": "GAC Motor Bangladesh — Authorized Distributor of AION V, AION Y, E9 PHEV, EMKOO and EMZOOM. Explore models, book a test drive, and find your nearest showroom.",
+          "bn": "GAC Motor বাংলাদেশ — AION V, AION Y, E9 PHEV, EMKOO এবং EMZOOM-এর অনুমোদিত পরিবেশক। মডেলগুলো দেখুন, টেস্ট ড্রাইভ বুক করুন এবং আপনার নিকটতম শোরুম খুঁজুন।"
+        }
+      },
+      "hero": {
+        "aionV": { "en": "AION V", "bn": "AION V" },
+        "aionY": { "en": "AION Y", "bn": "AION Y" },
+        "e9": { "en": "E9 PHEV — Luxury Redefined, Electrified", "bn": "E9 PHEV — বিলাসিতার নতুন রূপ, বৈদ্যুতিক শক্তিতে" },
+        "emkoo": { "en": "EMKOO — Elegance in Motion, Innovation Redefined", "bn": "EMKOO — গতিতে আভিজাত্য, উদ্ভাবনের নতুন রূপ" },
+        "emzoom": { "en": "EMZOOM — Born to Thrill, Built to Move", "bn": "EMZOOM — উচ্ছ্বাস জাগাতে জন্ম, গতির জন্য নির্মিত" }
+      },
+      "models": {
+        "sectionTitle": { "en": "Explore Our Models", "bn": "আমাদের মডেলগুলো দেখুন" }
+      },
+      "cta": {
+        "aboutTitle": { "en": "About GAC Motor", "bn": "GAC Motor সম্পর্কে" },
+        "aboutDesc": {
+          "en": "A Fortune 500 automotive brand bringing world-class innovation, intelligent design, and premium mobility solutions to Bangladesh through DHS Motors Limited.",
+          "bn": "একটি ফরচুন ৫০০ অটোমোটিভ ব্র্যান্ড, যা DHS Motors Limited-এর মাধ্যমে বাংলাদেশে বিশ্বমানের উদ্ভাবন, বুদ্ধিদীপ্ত ডিজাইন এবং প্রিমিয়াম মোবিলিটি সল্যুশন নিয়ে এসেছে।"
+        },
+        "learnMore": { "en": "Learn More", "bn": "আরও জানুন" },
+        "testDriveTitle": { "en": "Book A Test Drive", "bn": "টেস্ট ড্রাইভ বুক করুন" },
+        "testDriveDesc": {
+          "en": "Get behind the wheel and experience the GAC difference firsthand. Our team is ready to arrange a complimentary test drive at your nearest showroom.",
+          "bn": "নিজেই স্টিয়ারিং হাতে নিয়ে অনুভব করুন GAC-এর পার্থক্য। আপনার নিকটতম শোরুমে বিনামূল্যে টেস্ট ড্রাইভের ব্যবস্থা করতে আমাদের টিম প্রস্তুত।"
+        },
+        "scheduleNow": { "en": "Schedule Now", "bn": "এখনই বুক করুন" },
+        "contactUs": { "en": "Contact Us", "bn": "যোগাযোগ করুন" }
+      },
+      "faq": {
+        "heading": { "en": "Frequently Asked Questions", "bn": "প্রায়শই জিজ্ঞাসিত প্রশ্ন" },
+        "subheading": {
+          "en": "Answers to your most common questions about GAC Motor Bangladesh",
+          "bn": "GAC Motor বাংলাদেশ সম্পর্কে আপনার সবচেয়ে সাধারণ প্রশ্নের উত্তর"
+        },
+        "items": [
+          {
+            "q": { "en": "Does GAC Motor provide warranty and after-sales service?", "bn": "GAC Motor কি ওয়ারেন্টি এবং আফটার-সেলস সার্ভিস প্রদান করে?" },
+            "a": {
+              "en": "Yes, DHS Motors Limited, the Authorized Distributor of GAC Motor, offers warranty coverage along with dedicated after-sales service support. Our service team is always here to ensure a smooth ownership experience for you.",
+              "bn": "হ্যাঁ, GAC Motor-এর অনুমোদিত পরিবেশক DHS Motors Limited ওয়ারেন্টি কভারেজের সাথে নিবেদিত আফটার-সেলস সার্ভিস সাপোর্টও প্রদান করে। আমাদের সার্ভিস টিম সবসময় আপনার গাড়ি মালিকানার অভিজ্ঞতা সহজ ও নির্বিঘ্ন রাখতে প্রস্তুত।"
+            }
+          },
+          {
+            "q": { "en": "What is the difference between the GAC EMZOOM and the EMZOOM R Style?", "bn": "GAC EMZOOM এবং EMZOOM R Style-এর মধ্যে পার্থক্য কী?" },
+            "a": {
+              "en": "The main difference is that the R Style is the sportier and more premium version. Both models offer powerful turbocharged performance and advanced smart features, but the R Style adds Sport+ mode, special body modifications, and a unique interior design for a sportier look and feel.",
+              "bn": "মূল পার্থক্য হলো, R Style সংস্করণটি আরও স্পোর্টি ও প্রিমিয়াম। দুটি মডেলেই শক্তিশালী টার্বোচার্জড পারফরম্যান্স এবং উন্নত স্মার্ট ফিচার রয়েছে, তবে R Style-এ রয়েছে Sport+ মোড, বিশেষ বডি মডিফিকেশন এবং স্বতন্ত্র ইন্টেরিয়র ডিজাইন, যা একে আরও স্পোর্টি লুক ও ফিল দেয়।"
+            }
+          },
+          {
+            "q": { "en": "Is the GAC EMKOO suitable for family use and long drives?", "bn": "GAC EMKOO কি পরিবার ও লং ড্রাইভের জন্য উপযুক্ত?" },
+            "a": {
+              "en": "Yes, the GAC EMKOO is designed with a spacious cabin, advanced safety technology, and premium comfort features, making it ideal for both family use and long journeys. It also offers a futuristic SUV design with intelligent driving assistance systems.",
+              "bn": "হ্যাঁ, GAC EMKOO প্রশস্ত কেবিন, উন্নত সেফটি প্রযুক্তি এবং প্রিমিয়াম কমফোর্ট ফিচার নিয়ে ডিজাইন করা, যা একে পরিবার ও দীর্ঘ যাত্রার জন্য উপযুক্ত করে তোলে। এতে রয়েছে ফিউচারিস্টিক SUV ডিজাইন এবং ইন্টেলিজেন্ট ড্রাইভিং অ্যাসিস্ট্যান্স সিস্টেম।"
+            }
+          },
+          {
+            "q": { "en": "Is the GAC E9 a hybrid vehicle?", "bn": "GAC E9 কি একটি হাইব্রিড গাড়ি?" },
+            "a": {
+              "en": "Yes, the GAC E9 is a premium plug-in hybrid MPV (PHEV) that combines powerful performance with fuel efficiency and luxury comfort. It is designed for customers who want a premium travel experience with advanced technology. The E9 also competes with the Toyota Alphard and Vellfire by offering luxury, spacious seating, and advanced hybrid performance.",
+              "bn": "হ্যাঁ, GAC E9 একটি প্রিমিয়াম প্লাগ-ইন হাইব্রিড MPV (PHEV), যা শক্তিশালী পারফরম্যান্সের সাথে ফুয়েল ইফিশিয়েন্সি এবং বিলাসবহুল কমফোর্টের সমন্বয় করে। যারা উন্নত প্রযুক্তির সাথে একটি প্রিমিয়াম যাত্রার অভিজ্ঞতা চান, তাদের জন্যই এটি ডিজাইন করা। বিলাসবহুল ও প্রশস্ত সিটিং এবং উন্নত হাইব্রিড পারফরম্যান্সের মাধ্যমে E9 সরাসরি প্রতিদ্বন্দ্বিতা করে Toyota Alphard ও Vellfire-এর সাথে।"
+            }
+          },
+          {
+            "q": { "en": "What is the driving range of the GAC AION Y?", "bn": "GAC AION Y-এর ড্রাইভিং রেঞ্জ কত?" },
+            "a": {
+              "en": "The GAC AION Y is an all-electric SUV designed for smart urban mobility and efficient daily driving. The driving range of AION Y is 430km (WLTP).",
+              "bn": "GAC AION Y একটি সম্পূর্ণ ইলেকট্রিক SUV, যা স্মার্ট আরবান মোবিলিটি এবং প্রতিদিনের কার্যকর ড্রাইভিংয়ের জন্য ডিজাইন করা। AION Y-এর ড্রাইভিং রেঞ্জ ৪৩০ কিমি (WLTP)।"
+            }
+          },
+          {
+            "q": { "en": "Does the GAC AION V support fast charging?", "bn": "GAC AION V কি ফাস্ট চার্জিং সাপোর্ট করে?" },
+            "a": {
+              "en": "Yes, the GAC AION V supports fast charging technology for quicker and more convenient charging sessions. It can travel up to 485KM (WLTP) on a full charge and is built with advanced EV technology to deliver a smooth and modern driving experience.",
+              "bn": "হ্যাঁ, GAC AION V ফাস্ট চার্জিং প্রযুক্তি সাপোর্ট করে, যা দ্রুত ও সহজ চার্জিং নিশ্চিত করে। পুরো চার্জে এটি সর্বোচ্চ ৪৮৫ কিমি (WLTP) পর্যন্ত চলতে পারে এবং উন্নত EV প্রযুক্তিতে তৈরি, যা একটি মসৃণ ও আধুনিক ড্রাইভিং অভিজ্ঞতা দেয়।"
+            }
+          },
+          {
+            "q": { "en": "Are GAC vehicles suitable for Bangladesh road conditions?", "bn": "GAC গাড়িগুলো কি বাংলাদেশের রাস্তার উপযুক্ত?" },
+            "a": {
+              "en": "GAC vehicles are engineered to deliver a balance of performance, comfort, and fuel efficiency for both city and highway driving. Their advanced suspension and smart driving technologies also make them suitable for Bangladesh road conditions.",
+              "bn": "GAC গাড়িগুলো শহর এবং হাইওয়ে, দুই ধরনের ড্রাইভিংয়েই পারফরম্যান্স, কমফোর্ট এবং ফুয়েল ইফিশিয়েন্সির একটি ভারসাম্য দিতে তৈরি। এর উন্নত সাসপেনশন এবং স্মার্ট ড্রাইভিং প্রযুক্তি একে বাংলাদেশের রাস্তার জন্যও উপযুক্ত করে তোলে।"
+            }
+          },
+          {
+            "q": { "en": "What makes the AION V different from other EVs?", "bn": "অন্যান্য EV থেকে AION V কীভাবে আলাদা?" },
+            "a": {
+              "en": "The AION V offers features like a built-in refrigerator, massage seats, and up to 485KM (WLTP) range on a single charge, making it more premium and comfortable than many competitors.",
+              "bn": "AION V-এ রয়েছে বিল্ট-ইন রেফ্রিজারেটর, ম্যাসাজ সিট এবং একবার চার্জে সর্বোচ্চ ৪৮৫ কিমি (WLTP) রেঞ্জের মতো ফিচার, যা একে অনেক প্রতিদ্বন্দ্বীর তুলনায় বেশি প্রিমিয়াম ও কমফোর্টেবল করে তোলে।"
+            }
+          },
+          {
+            "q": { "en": "Why are GAC vehicles becoming popular in Bangladesh?", "bn": "বাংলাদেশে GAC গাড়ি কেন জনপ্রিয় হয়ে উঠছে?" },
+            "a": {
+              "en": "GAC vehicles provide modern premium features, stylish design, and competitive pricing compared to many Japanese and Korean alternatives, making them an increasingly attractive choice for Bangladeshi drivers.",
+              "bn": "GAC গাড়িতে রয়েছে আধুনিক প্রিমিয়াম ফিচার, স্টাইলিশ ডিজাইন এবং জাপানি ও কোরিয়ান বিকল্পগুলোর তুলনায় প্রতিযোগিতামূলক দাম, যা একে বাংলাদেশি গ্রাহকদের কাছে দিন দিন আরও আকর্ষণীয় পছন্দ করে তুলছে।"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

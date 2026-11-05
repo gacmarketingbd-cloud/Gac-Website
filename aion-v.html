@@ -24,6 +24,9 @@
   <title>GAC AION V — Specifications & Features in Bangladesh</title>
   <meta name="description" content="Explore the GAC AION V in Bangladesh, featuring an in-car refrigerator, one-touch bed mode, 8-point massage front seats, and Magazine Battery 2.0." />
   <link rel="canonical" href="https://www.gac.com.bd/aion-v" />
+  <link rel="alternate" hreflang="en" href="https://www.gac.com.bd/aion-v" />
+  <link rel="alternate" hreflang="bn-BD" href="https://www.gac.com.bd/bn/aion-v" />
+  <link rel="alternate" hreflang="x-default" href="https://www.gac.com.bd/aion-v" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="GAC AION V — Specifications & Features in Bangladesh" />
   <meta property="og:description" content="Explore the GAC AION V in Bangladesh, featuring an in-car refrigerator, one-touch bed mode, 8-point massage front seats, and Magazine Battery 2.0." />
@@ -61,6 +64,11 @@
     .nav-links > li { position: relative; }
     .nav-links > li > a { font-size: 12px; font-weight: 700; color: #333; text-decoration: none; letter-spacing: 0.10em; text-transform: uppercase; display: flex; align-items: center; gap: 4px; padding: 4px 0; }
     .nav-links > li > a:hover { color: #EB0A1E; }
+    .lang-switch { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; padding: 4px 0; }
+    .lang-switch a { color: #888; text-decoration: none; transition: color 0.2s; }
+    .lang-switch a.lang-current { color: #EB0A1E; pointer-events: none; }
+    .lang-switch a:not(.lang-current):hover { color: #EB0A1E; }
+    .lang-switch .lang-sep { color: #ddd; }
     .dropdown { display: none; position: absolute; top: calc(100% + 4px); left: -16px; background: #fff; border: 1px solid #eee; box-shadow: 0 6px 20px rgba(0,0,0,0.10); min-width: 160px; z-index: 500; padding: 6px 0; }
     .dropdown a { display: block; padding: 10px 22px; font-size: 13px; font-weight: 500; color: #444; text-decoration: none; }
     .dropdown a:hover { color: #EB0A1E; background: #fafafa; }
@@ -169,6 +177,7 @@
       .nav-links { display: none; position: absolute; top: 72px; left: 0; right: 0; background: #fff; flex-direction: column; gap: 0; padding: 8px 0 16px; border-bottom: 1px solid #e5e5e5; box-shadow: 0 6px 16px rgba(0,0,0,0.08); z-index: 999; }
       .nav-links.open { display: flex; }
       .nav-links > li > a { padding: 13px 24px; font-size: 12px; }
+      .lang-switch { padding: 13px 24px; }
       .btn-book { display: none; }
       .dropdown { position: static; padding-top: 0; box-shadow: none; border: none; border-top: 1px solid #f0f0f0; margin-top: 4px; }
       .nav-links > li.open .dropdown { display: block; }
@@ -247,6 +256,11 @@
         </div>
       </li>
       <li><a href="/contact-us">Contact Us</a></li>
+      <li class="lang-switch-item">
+        <div class="lang-switch">
+          <a href="/aion-v" class="lang-current">EN</a><span class="lang-sep">/</span><a href="/bn/aion-v">বাংলা</a>
+        </div>
+      </li>
     </ul>
     <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
     <a href="/book-a-test-drive" class="btn-book">Book A Test Drive</a>
